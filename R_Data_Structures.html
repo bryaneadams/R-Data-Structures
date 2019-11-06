@@ -387,6 +387,22 @@ str(my_tibs)</code></pre>
 ##  3rd Qu.:13.75   3rd Qu.:13.75   3rd Qu.:27.5  
 ##  Max.   :15.00   Max.   :15.00   Max.   :30.0</code></pre>
 </div>
+<div id="lists-can-have-anything" class="section level3">
+<h3>Lists can have anything</h3>
+<pre class="r"><code>my_list = list(my_tibs, sex)
+str(my_list)</code></pre>
+<pre><code>## List of 2
+##  $ :List of 2
+##   ..$ :Classes 'tbl_df', 'tbl' and 'data.frame': 5 obs. of  3 variables:
+##   .. ..$ x: int [1:5] 1 2 3 4 5
+##   .. ..$ y: int [1:5] 1 2 3 4 5
+##   .. ..$ z: int [1:5] 2 4 6 8 10
+##   ..$ :Classes 'tbl_df', 'tbl' and 'data.frame': 6 obs. of  3 variables:
+##   .. ..$ x: int [1:6] 10 11 12 13 14 15
+##   .. ..$ y: int [1:6] 10 11 12 13 14 15
+##   .. ..$ z: int [1:6] 20 22 24 26 28 30
+##  $ : chr [1:4] &quot;M&quot; &quot;F&quot; &quot;M&quot; &quot;F&quot;</code></pre>
+</div>
 </div>
 </div>
 

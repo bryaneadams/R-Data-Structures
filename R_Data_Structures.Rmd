@@ -156,3 +156,10 @@ my_tibs%>%
 
 ```
 
+### Lists can have anything
+
+```{r}
+my_list = list(my_tibs, sex)
+str(my_list)
+```
+
